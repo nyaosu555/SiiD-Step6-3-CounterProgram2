@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.counter {
+    text-align: center;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+.counter-number {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.counter-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 0;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: opacity 0.3s;
+}
+
+.counter-button:hover {
+    opacity: 0.8;
+}
